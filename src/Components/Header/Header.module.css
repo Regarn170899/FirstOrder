@@ -4,9 +4,11 @@
     width:100%;
     height:210px;
     display: flex;
+
 }
 .container{
     display: flex;
+    margin: 0 auto;
 }
 .menu{
     width: 940px;
