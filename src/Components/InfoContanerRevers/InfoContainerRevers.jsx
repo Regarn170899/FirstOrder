@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './InfoContainerReverse.module.css';
 
+
 const InfoContainerRevers = (props) => {
     return (
         <div className={styles.info}>
