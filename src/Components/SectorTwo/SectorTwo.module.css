@@ -35,4 +35,12 @@
     height: 157px;
     background: #FFF;
     margin-top: 116px;
+    position: relative;
+}
+.circleContainer{
+    top: -100px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
 }
