@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "./SectorTwo.module.css"
+import CircleTextContainer from "../CircleTextContainer/CircleTextContainer";
 
 const SectorTwo = () => {
     return (
@@ -13,7 +14,11 @@ const SectorTwo = () => {
                 </div>
             </div>
             <div>
-                <div className={styles.whiteBlock}></div>
+                <div className={styles.whiteBlock}>
+                    <div className={styles.circleContainer}>
+                        <CircleTextContainer/>
+                    </div>
+                </div>
             </div>
         </div>
     );
